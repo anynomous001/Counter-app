@@ -1,0 +1,50 @@
+body {
+    background: url("gumball.png");
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    text-shadow: 0px 0px 1px black;
+    font-family: 'Happy Monkey', cursive;
+}
+
+#count-div {
+
+    width: 400px;
+    height: 450px;
+    background-color: #fdfcdc;
+    margin: 100px auto;
+    font-size: 20px;
+    border-radius: 10px;
+
+    box-shadow: 1px 2px 10px rgb(20, 5, 7);
+}
+
+#increment {
+    background-color: #00afb9;
+}
+
+#save-el {
+    background-color: #f07167;
+}
+
+#count-el {
+    margin: 0px auto 50px auto;
+}
+
+button {
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10%;
+    width: 150px;
+    background-color: #00afb9;
+
+}
+
+#count-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
